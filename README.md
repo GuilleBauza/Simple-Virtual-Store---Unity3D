@@ -14,9 +14,9 @@ A Plugin for a simple Virtual store for your game on Unity3D.
  
 #Unity3D Guide:
 1. Import to unity asset folder our dll file.
-2. Importing our library/namespace to our project: `using VirtualStore;`
-3. We create a C# Script called as example: **StoreManagerExample**, call it how ever you want.
+2. We create a C# Script called as example: **StoreManagerExample**, call it however you want.
   - This will manage our virtual store.
+3. Importing our library/namespace to our project: `using VirtualStore;`
 4. Start creating items to sell:
   - **Create "blue gem" item.**
    ```
