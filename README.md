@@ -76,13 +76,13 @@ A Plugin for a simple Virtual store for your game on Unity3D.
  The following method will delete all information if the game stop.
  */
  
- // use a item holder, refer to step #6 also refer to Important notice above).
+ // use a item holder, refer to step #6 also refer to Important notice above.
  
  //create simple buy function.
  public void SellBlueGem()
  {
  //FORMAT: (ITEM, CURRENT_ITEM_AMOUNT, AMOUNT_TO_SELL, AT_WHAT_PRICE)
-      MyCurrent_Blue_Gem_Amount = SellVirtualGoods.sellvirtual_good
+      MyCurrent_Blue_Gem_Amount = SellVirtualGoods.sell_virtual_good
                                    (
                                      blueGem, 
                                      MyCurrent_Blue_Gem_Amount,
@@ -95,7 +95,7 @@ A Plugin for a simple Virtual store for your game on Unity3D.
  public void SellBlueGemByHalfPrice()
  {
  //FORMAT: (ITEM, CURRENT_ITEM_AMOUNT, AMOUNT_TO_SELL, AT_WHAT_PRICE)
-      MyCurrent_Blue_Gem_Amount = SellVirtualGoods.sellvirtual_good
+      MyCurrent_Blue_Gem_Amount = SellVirtualGoods.sell_virtual_good
                                    (
                                       blueGem, 
                                       MyCurrent_Blue_Gem_Amount,
@@ -107,6 +107,7 @@ A Plugin for a simple Virtual store for your game on Unity3D.
  
 # Notes: 
 > This plugin is at first release, we will continue to add more features to help you do less code. Please contact us if need futher assistance
+> You should manage your save and load assets information. All information stored at runtime will be deleted once the game or aplication stop. Remember to manage your save and load information at a database or local files.
 
 #**Supporters:**
    >Guille Bauza
