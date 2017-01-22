@@ -106,8 +106,9 @@ A Plugin for a simple Virtual store for your game on Unity3D.
  ```
  
 # Notes: 
-> This plugin is at first release, we will continue to add more features to help you do less code. Please contact us if need futher assistance
-> You should manage your save and load assets information. All information stored at runtime will be deleted once the game or aplication stop. Remember to manage your save and load information at a database or local files.
+> -This plugin is at first release, we will continue to add more features to help you do less code. Please contact us if need futher assistance
+
+> -You should manage your save and load assets information. All information stored at runtime will be deleted once the game or aplication stop. Remember to manage your save and load information at a database or local files.
 
 #**Supporters:**
    >Guille Bauza
